@@ -1,19 +1,16 @@
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.math.BigInteger;
+import java.sql.SQLOutput;
 import java.util.Scanner;
 
 public class TestClass {
-    public static void main(String[] args) throws IOException {
-
-        int a, b, c;
-        a = System.in.read();
-        c = System.in.read();
-        b = System.in.read();
-        System.out.println(a + b);
-
-
-//        Scanner in = new Scanner(System.in);
+    public static void main(String[] args) {
+        //Scanner scanner = new Scanner(System.in);
+        int n = new Scanner(System.in).nextInt();
+        System.out.printf("%.0f",((1.+n)/2)*n);
+        //        Scanner in = new Scanner(System.in);
 //        String a = in.next();
 //        System.out.println(Integer.parseInt(a,2));
 //        int t = System.in.read();
