@@ -5,14 +5,21 @@ import java.util.Scanner;
 
 public class TestClass {
     public static void main(String[] args) throws IOException {
+
+
         Scanner in = new Scanner(System.in);
-        int a, b, c;
-        a = in.nextInt();
-        b = in.nextInt();
-        c = in.nextInt();
-        System.out.printf("%d + %d + %d = %d\n", a, b, c, a + b + c);
-        System.out.printf("%d * %d * %d = %d\n", a, b, c, a * b * c);
-        System.out.printf("(%d + %d) * %d = %d\n", a, b, c, (a + b) * c);
+        String a = in.next();
+        System.out.println(Integer.parseInt(a,2));
+        int t = System.in.read();
+        System.out.println(t);
+
+        //        int a, b, c;
+        //        a = in.nextInt();
+        //        b = in.nextInt();
+        //        c = in.nextInt();
+        //        System.out.printf("%d + %d + %d = %d\n", a, b, c, a + b + c);
+        //        System.out.printf("%d * %d * %d = %d\n", a, b, c, a * b * c);
+        //        System.out.printf("(%d + %d) * %d = %d\n", a, b, c, (a + b) * c);
 
         System.exit(0);
 //        Scanner in = new Scanner(System.in);
