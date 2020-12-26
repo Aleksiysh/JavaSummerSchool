@@ -6,12 +6,18 @@ import java.util.Scanner;
 public class TestClass {
     public static void main(String[] args) throws IOException {
 
+        int a, b, c;
+        a = System.in.read();
+        c = System.in.read();
+        b = System.in.read();
+        System.out.println(a + b);
 
-        Scanner in = new Scanner(System.in);
-        String a = in.next();
-        System.out.println(Integer.parseInt(a,2));
-        int t = System.in.read();
-        System.out.println(t);
+
+//        Scanner in = new Scanner(System.in);
+//        String a = in.next();
+//        System.out.println(Integer.parseInt(a,2));
+//        int t = System.in.read();
+//        System.out.println(t);
 
         //        int a, b, c;
         //        a = in.nextInt();
